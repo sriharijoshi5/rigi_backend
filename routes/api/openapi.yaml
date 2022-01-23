@@ -1,0 +1,189 @@
+openapi: 3.0.0
+info:
+  title: swipe_it
+  description: ""
+  version: "1.0"
+servers:
+- url: https://virtserver.swaggerhub.com/sriharijoshi5/Rigi_Backend/1.0
+  description: SwaggerHub API Auto Mocking
+tags:
+- name: user
+  description: Operations about user
+  externalDocs:
+    description: Find out more about our store
+    url: http://swagger.io
+- name: image
+  description: Access to images
+- name: history
+  description: Access to history
+paths:
+  /user/sendOtp:ð
+    post:
+      tags:
+      - user
+      summary: Request to send OTP
+      operationId: sendOtp
+      requestBody:
+        description: User Phone number that needs to be sent message to
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        "405":
+          description: Invalid input
+          content: {}
+      x-swagger-router-controller: User
+  /user/verifyOtp:
+    post:
+      tags:
+      - user
+      summary: Request to verifyOtp
+      operationId: verifyOtp
+      requestBody:
+        description: User enters the OTP that needs to be verified
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user_verifyOtp_body'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/user_verifyOtp_body_1'
+      responses:
+        "405":
+          description: Invalid input
+          content: {}
+      x-swagger-router-controller: User
+  /user/register:
+    post:
+      tags:
+      - user
+      summary: Request register user after OTP verification
+      operationId: register
+      requestBody:
+        description: User enters name and registers
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        "405":
+          description: Invalid input
+          content: {}
+      security:
+      - bearerAuth: []
+      x-swagger-router-controller: User
+  /image:
+    get:
+      tags:
+      - image
+      summary: Get image to be shown on home screen
+      operationId: image
+      responses:
+        "405":
+          description: Invalid input
+          content: {}
+      security:
+      - bearerAuth: []
+      x-swagger-router-controller: Image
+  /image/{imageName}:
+    post:
+      tags:
+      - user
+      summary: Request register user after OTP verification
+      operationId: imageAction
+      parameters:
+      - name: imageName
+        in: path
+        description: Name of the image swiped
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+          example: One
+      requestBody:
+        description: Image that is swiped left/right
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Image'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/Image'
+      responses:
+        "405":
+          description: Invalid input
+          content: {}
+      security:
+      - bearerAuth: []
+      x-swagger-router-controller: User
+  /history:
+    get:
+      tags:
+      - history
+      summary: List all previous operations on image with timestamp
+      operationId: history
+      responses:
+        "405":
+          description: Invalid input
+          content: {}
+      security:
+      - bearerAuth: []
+      x-swagger-router-controller: History
+components:
+  schemas:
+    User:
+      required:
+      - mobileNumber
+      type: object
+      properties:
+        mobileNumber:
+          type: string
+          example: "9000190001"
+        name:
+          type: string
+          example: Joshi Srihari
+    Image:
+      required:
+      - imageName
+      type: object
+      properties:
+        imageName:
+          type: string
+          example: One
+    user_verifyOtp_body:
+      required:
+      - mobileNumber
+      - otp
+      type: object
+      properties:
+        mobileNumber:
+          type: string
+          example: "9000190001"
+        otp:
+          type: integer
+          format: int64
+    user_verifyOtp_body_1:
+      required:
+      - mobileNumber
+      - otp
+      type: object
+      properties:
+        mobileNumber:
+          type: string
+          example: "9000190001"
+        otp:
+          type: integer
+          format: int64
+  securitySchemes:
+    bearerAuth:
+      type: apiKey
+      name: access_token
+      in: header

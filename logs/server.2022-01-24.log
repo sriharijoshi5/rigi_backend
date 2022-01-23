@@ -1,0 +1,198 @@
+yyyy-28-01_12:28:57 - RIGI - BACKEND - server.js:na[na] - 74014:na - info - Server started on port 3000
+yyyy-28-01_12:28:57 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - getAllImages
+yyyy-28-01_12:28:57 - RIGI - BACKEND - createImageDB:na[na] - 74014:na - debug - >>>> imageDB
+yyyy-28-01_12:28:57 - RIGI - BACKEND - db.js:na[na] - 74014:na - debug -  MongoDB Connected...
+yyyy-28-01_12:28:57 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - getAllImages
+yyyy-28-01_12:28:57 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - insertImages
+yyyy-28-01_12:28:57 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - insertImages
+yyyy-28-01_12:28:57 - RIGI - BACKEND - createImageDB:na[na] - 74014:na - debug - <<<< imageDB
+yyyy-29-01_12:29:10 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - >>>> sendOtp
+yyyy-29-01_12:29:10 - RIGI - BACKEND - generateHashValue:na[na] - 74014:na - debug - >>>> getHashValue
+yyyy-29-01_12:29:10 - RIGI - BACKEND - generateOtp:na[na] - 74014:na - debug - >>>> getOtp
+yyyy-29-01_12:29:10 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-29-01_12:29:10 - RIGI - BACKEND - generateHashValue:na[na] - 74014:na - debug - <<<< getHashValue
+yyyy-29-01_12:29:10 - RIGI - BACKEND - generateOtp:na[na] - 74014:na - debug - <<<< getOtp
+yyyy-29-01_12:29:10 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-29-01_12:29:10 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> User - insert
+yyyy-29-01_12:29:10 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< User - insertUser
+yyyy-29-01_12:29:10 - RIGI - BACKEND - Otp.js:na[na] - 74014:na - debug - >>>> Otp - insertOtp
+yyyy-29-01_12:29:10 - RIGI - BACKEND - Otp.js:na[na] - 74014:na - debug - <<<< Otp - insertOtp
+yyyy-29-01_12:29:10 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - sendOtp - otp: 7180
+yyyy-29-01_12:29:10 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - <<<< sendOtp
+yyyy-29-01_12:29:20 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - >>>> verifyOtp
+yyyy-29-01_12:29:20 - RIGI - BACKEND - generateHashValue:na[na] - 74014:na - debug - >>>> getHashValue
+yyyy-29-01_12:29:20 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-29-01_12:29:20 - RIGI - BACKEND - generateHashValue:na[na] - 74014:na - debug - <<<< getHashValue
+yyyy-29-01_12:29:20 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-29-01_12:29:20 - RIGI - BACKEND - Otp.js:na[na] - 74014:na - debug - >>>> findOtpByUserId
+yyyy-29-01_12:29:20 - RIGI - BACKEND - Otp.js:na[na] - 74014:na - debug - <<<< findOtpByUserId
+yyyy-29-01_12:29:20 - RIGI - BACKEND - jwtSign:na[na] - 74014:na - debug - >>>> getJwtToken
+yyyy-29-01_12:29:20 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - verifyOtp - OTP Verification Successful. Responded with bearer token
+yyyy-29-01_12:29:20 - RIGI - BACKEND - jwtSign:na[na] - 74014:na - debug - <<<< getJwtToken
+yyyy-29-01_12:29:20 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - <<<< verifyOtp
+yyyy-29-01_12:29:34 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-29-01_12:29:34 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - >>>> register
+yyyy-29-01_12:29:34 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-29-01_12:29:34 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-29-01_12:29:34 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-29-01_12:29:34 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> User - updateUser
+yyyy-29-01_12:29:34 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - User - updateUser - Succesful
+yyyy-29-01_12:29:34 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< User - insert
+yyyy-29-01_12:29:34 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - register - User registered succesfully
+yyyy-29-01_12:29:34 - RIGI - BACKEND - UserService:na[na] - 74014:na - debug - <<<< register
+yyyy-30-01_12:30:04 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-30-01_12:30:04 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-30-01_12:30:04 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-30-01_12:30:04 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-30-01_12:30:04 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - getAllImages
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> init
+yyyy-30-01_12:30:04 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - getAllImages
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - >>>> ImageAction - getSwipedImagesForUserId
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - <<<< ImageAction - getSwipedImagesForUserId
+yyyy-30-01_12:30:04 - RIGI - BACKEND - filterImages:na[na] - 74014:na - debug - >>>> removeByAttr
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< init
+yyyy-30-01_12:30:04 - RIGI - BACKEND - filterImages:na[na] - 74014:na - debug - <<<< removeByAttr
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - Map is empty for user OR Server has restarted.
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-30-01_12:30:04 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-30-01_12:30:16 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageAction
+yyyy-30-01_12:30:16 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-30-01_12:30:16 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-30-01_12:30:16 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-30-01_12:30:16 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - getImageIdByName
+yyyy-30-01_12:30:16 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - getImageIdByName
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageActionResponse
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - >>>> ImageAction - updateImageAction
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageActionResponse
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageAction
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - <<<< ImageAction - updateImageAction
+yyyy-30-01_12:30:16 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - ImageAction - updateImageAction - Succesful
+yyyy-30-01_12:30:33 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-30-01_12:30:33 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-30-01_12:30:33 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-30-01_12:30:33 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-30-01_12:30:33 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-30-01_12:30:33 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-30-01_12:30:33 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-30-01_12:30:33 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-30-01_12:30:33 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-30-01_12:30:33 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-31-01_12:31:25 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageAction
+yyyy-31-01_12:31:26 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:26 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-31-01_12:31:26 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-31-01_12:31:26 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - getImageIdByName
+yyyy-31-01_12:31:26 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - getImageIdByName
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageActionResponse
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - >>>> ImageAction - updateImageAction
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageActionResponse
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageAction
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - <<<< ImageAction - updateImageAction
+yyyy-31-01_12:31:26 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - ImageAction - updateImageAction - Succesful
+yyyy-31-01_12:31:36 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - >>>> history
+yyyy-31-01_12:31:36 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:36 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:36 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:36 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - >>>> ImageAction - getSwipedImagesForUserId
+yyyy-31-01_12:31:36 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - <<<< ImageAction - getSwipedImagesForUserId
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - >>>> getHistoryJson
+yyyy-31-01_12:31:36 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - getImageById
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - >>>> getImageAttributes
+yyyy-31-01_12:31:36 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - getImageById
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - <<<< getImageAttributes
+yyyy-31-01_12:31:36 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - getImageById
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - >>>> formatDateTime
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - <<<< formatDateTime
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - >>>> getImageAttributes
+yyyy-31-01_12:31:36 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - getImageById
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - <<<< getImageAttributes
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - >>>> formatDateTime
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - <<<< formatDateTime
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - <<<< getHistoryJson
+yyyy-31-01_12:31:36 - RIGI - BACKEND - HistoryService.js:na[na] - 74014:na - debug - <<<< history
+yyyy-31-01_12:31:47 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:47 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-31-01_12:31:47 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:47 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:47 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-31-01_12:31:47 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:47 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-31-01_12:31:47 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-31-01_12:31:47 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-31-01_12:31:47 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-31-01_12:31:56 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-31-01_12:31:56 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:56 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-31-01_12:31:56 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-31-01_12:31:56 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-31-01_12:31:56 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:56 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-31-01_12:31:56 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-31-01_12:31:56 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-31-01_12:31:57 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-31-01_12:31:57 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:57 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-31-01_12:31:57 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-31-01_12:31:57 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-31-01_12:31:57 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:57 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-31-01_12:31:57 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-31-01_12:31:57 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-31-01_12:31:58 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-31-01_12:31:58 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> image
+yyyy-31-01_12:31:58 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-31-01_12:31:58 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-31-01_12:31:58 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-31-01_12:31:58 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-31-01_12:31:58 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-31-01_12:31:58 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageResponse
+yyyy-31-01_12:31:58 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageResponse
+yyyy-31-01_12:31:58 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< image
+yyyy-32-01_12:32:16 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - >>>> authenticateToken
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageAction
+yyyy-32-01_12:32:16 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - >>>> findUserByMobileNumberHash
+yyyy-32-01_12:32:16 - RIGI - BACKEND - authenticate:na[na] - 74014:na - debug - <<<< authenticateToken
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> getUserCollection
+yyyy-32-01_12:32:16 - RIGI - BACKEND - User.js:na[na] - 74014:na - debug - <<<< findUserByMobileNumberHash
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< getUserCollection
+yyyy-32-01_12:32:16 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - >>>> Image - getImageIdByName
+yyyy-32-01_12:32:16 - RIGI - BACKEND - Image.js:na[na] - 74014:na - debug - <<<< Image - getImageIdByName
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - >>>> imageActionResponse
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - >>>> ImageAction - updateImageAction
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageActionResponse
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageService:na[na] - 74014:na - debug - <<<< imageAction
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - <<<< ImageAction - updateImageAction
+yyyy-32-01_12:32:16 - RIGI - BACKEND - ImageAction.js:na[na] - 74014:na - debug - ImageAction - updateImageAction - Succesful
