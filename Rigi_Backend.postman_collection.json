@@ -1,0 +1,418 @@
+{
+	"info": {
+		"_postman_id": "702f20f6-7753-4793-81fc-726ea1e1463b",
+		"name": "Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Step 1: Send OTP Heroku",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mobileNo\":\"9886833667\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rigi-backend.herokuapp.com/api/user/sendOtp",
+					"protocol": "https",
+					"host": [
+						"rigi-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"sendOtp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 2: Verify OTP Heroku",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mobileNo\":\"9886833667\",\n    \"otp\":2416\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rigi-backend.herokuapp.com/api/user/verifyOtp",
+					"protocol": "https",
+					"host": [
+						"rigi-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"verifyOtp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 3: Register User Heroku",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2NDM2MH0.9nrXWxhsBeqw-qvBkX3hcIHAsyj3P91QGpbihYAKufA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Sjoshi\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rigi-backend.herokuapp.com/api/user/register",
+					"protocol": "https",
+					"host": [
+						"rigi-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 4.0: Get Image Heroku",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2ODY1Nn0.uR9kXBuTR08eRr4lBjCmSNan-YaR909WCMfB2NufUEI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rigi-backend.herokuapp.com/api/image",
+					"protocol": "https",
+					"host": [
+						"rigi-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 4.1: Image Action Heroku",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2ODY1Nn0.uR9kXBuTR08eRr4lBjCmSNan-YaR909WCMfB2NufUEI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"action\":\"left\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://rigi-backend.herokuapp.com/api/image/Two",
+					"protocol": "https",
+					"host": [
+						"rigi-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"image",
+						"Two"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 6: History Heroku",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2NDM2MH0.9nrXWxhsBeqw-qvBkX3hcIHAsyj3P91QGpbihYAKufA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://rigi-backend.herokuapp.com/api/history",
+					"protocol": "https",
+					"host": [
+						"rigi-backend",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 1: Send OTP Local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mobileNo\":\"9886833667\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/user/sendOtp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"sendOtp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 2: Verify OTP Local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mobileNo\":\"9886833667\",\n    \"otp\":7914\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/user/verifyOtp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"verifyOtp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 3: Register User Local",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2ODY1Nn0.uR9kXBuTR08eRr4lBjCmSNan-YaR909WCMfB2NufUEI",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Sjoshi\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 4.0: Get Image Local",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2NDM2MH0.9nrXWxhsBeqw-qvBkX3hcIHAsyj3P91QGpbihYAKufA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/image",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 4.1: Image Action Local",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2NDM2MH0.9nrXWxhsBeqw-qvBkX3hcIHAsyj3P91QGpbihYAKufA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"action\":\"left\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/image/Two",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"image",
+						"Two"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Step 6: History Local",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtb2JpbGVOdW1iZXJIYXNoIjoiNzY1NzA1N2Y4ZWI2ZmI2MGRjNTM0MmU3OTY0OTRmYzEwNzZiMjMxMiIsImlhdCI6MTY0Mjk2NDM2MH0.9nrXWxhsBeqw-qvBkX3hcIHAsyj3P91QGpbihYAKufA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/history",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"history"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
