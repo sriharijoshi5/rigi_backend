@@ -1,5 +1,5 @@
 # rigi_backend
-Over the weekend!
+Over the weekend! ( I will have this file look readable in the future commits)
 
 Right, designed and developed from scratch (someone else would have done it bettter may be ;) 
 
