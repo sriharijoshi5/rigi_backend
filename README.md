@@ -1,7 +1,7 @@
 # rigi_backend
 Over the weekend! ( I will have this file more readable in the future commits)
 
-Right, designed and developed from scratch (someone else would have done it bettter may be ;) 
+Right, designed and developed from scratch
 
 Yes, .env could "not" have been in repo..
 
